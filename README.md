@@ -86,7 +86,7 @@ These are the commands that the player can use to interact with the game (comman
 The bot is the computer controlled player that is chasing the player, trying to make them lose. Just like the player, the bot can only see the map using the [LOOK](#game-commands) command and can only move using the [MOVE](#game-commands) command. The bot does not collect gold and cannot leave the dungeon, its only purpose is to catch the player. Every other turn, the bot will perform a [LOOK](#game-commands) action, and if it sees the player, on its next turn will move towards them. If the bot cannot see the player, then it makes random moves until the player becomes visible again.
 
 
-### Custom Maps
+### Custom Maps
 ---
 The game supports the use of custom maps that the player can play with. The game can be loaded with either the default map, or the user can provide the name of a file that contains a map. All maps must be placed in the directory `./src/main/resources/maps/`.
 
