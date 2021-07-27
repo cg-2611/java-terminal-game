@@ -3,7 +3,7 @@
 This was a simple game I had to make for one of my early coursework projects at university. I was given the premise of the game, along with instructions on how to play the game and a how it is set up. This repository contains my solution with very small changes (tidying up comments and fixing some errors) made to it since the submission deadline. Almost all of the source code has been left untouched, only minor alterations have been made.
 
 
-## Contents:
+### Contents:
 - [Build and Run](#build-and-run)
 - [Game Premise](#game-premise)
 - [Game Commands](#game-commands)
