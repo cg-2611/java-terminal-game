@@ -169,10 +169,10 @@ public class GameLogic {
             for (int j = player.getColumn() - centre; j < player.getColumn() - centre + outputSize; j++) {
                 try {
                     if (i == humanPlayer.getRow() && j == humanPlayer.getColumn()) {
-                        // Put a P at the human player position of the player if the player is in the 5x5 grid
+                        // put a P at the human player position of the player if the player is in the 5x5 grid
                         outputMap += 'P';
                     } else if (i == bot.getRow() && j == bot.getColumn()) {
-                        // Put a B at the bot player position of the bot if the bot is in the 5x5 grid
+                        // put a B at the bot player position of the bot if the bot is in the 5x5 grid
                         outputMap += 'B';
                     } else {
                         // otherwise, put the corresponding character from the map into the 5x5 grid
